@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/weather', // backend base URL
+  baseURL: 'https://weatherwave-backend.onrender.com/weather', // backend base URL
 });
 
 // Current weather by city

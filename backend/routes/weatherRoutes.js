@@ -14,5 +14,9 @@ router.get('/forecast/:city', getForecast);
 router.post('/favorites', addFavorite);
 router.get('/favorites', getFavorites);
 router.delete('/favorites/:city', removeFavorite);
+router.get('/', (req, res) => {
+  res.send('🌤️ WeatherWave API is running');
+});
+
 
 export default router;
