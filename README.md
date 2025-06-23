@@ -40,13 +40,13 @@ A full-stack weather application built with React and Node.js that allows users 
 
 ## 📦 How to Run Locally
 
-### 1. Clone the Repo
+**1. Clone the Repo**
 
 ```bash
 git clone https://github.com/ou786/WeatherWave.git
 cd WeatherWave
 
-**2.Run Backend**
+**2. Run Backend**
 cd backend
 npm install
 
